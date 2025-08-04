@@ -1,3 +1,4 @@
+# Page: Welcome
 import streamlit as st
 
 # Page config
@@ -7,7 +8,7 @@ st.set_page_config(page_title="HGO Internal Acquisitions Algorithm", layout="wid
 st.title("HGO BI Acquisitions Algorithm")
 
 # Subtitle and brief intro
-st.markdown("### Meet Aria: AI-powered Donor Prospecting for your next major donor! 👋")
+st.markdown("### Meet Aria: AI-powered Donor Prospecting Solicitation! 👋")
 st.markdown("""
 We’re currently in **Version 4** of the Aria (Audience Relationship Intelligence Algorithm).
 
