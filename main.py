@@ -4,23 +4,29 @@ import streamlit as st
 st.set_page_config(page_title="HGO Internal Acquisitions Algorithm", layout="wide")
 
 # Title
-st.title("HGO Internal Acquisitions Algorithm")
+st.title("HGO BI Acquisitions Algorithm")
 
 # Subtitle and brief intro
-st.markdown("### Hi there, welcome 👋")
+st.markdown("### Meet Aria: AI-powered Donor Prospecting for your next major donor! 👋")
 st.markdown("""
-We’re currently in **Version 4** of the HGO Internal Acquisitions Algorithm.
+We’re currently in **Version 4** of the Aria (Audience Relationship Intelligence Algorithm).
 
-Our system has been extensively trained on historical giving, affinity, and engagement data from constituents.
+Our system has been extensively trained on historical giving, historical engagement, public affinity, wealth data, and demographical data from constituents among others. 
 """)
 
 # Feature bullets
 st.markdown("""
-- 📊 **Extensive training data** covering engagement history, wealth signals, and donor trajectories  
-- 🧠 **Predictive modeling** to classify whether a newly entered constituent is likely to become a donor  
-- 💡 **Solicitation suggestions** tailored to the classified profile (e.g. timing, message type, channel)  
-- 🛠️ Built with **Streamlit**, **scikit-learn**, and **Tessitura-integrated pipelines**  
+Aria:
+- 📊 **Leverages historical data** — including engagement patterns, public wealth signals, and donor trajectories to train accurate prediction models  
+- 🧠 **Classifies new constituents in real-time**, telling us they're likelihood to become donors and the lifecycle stage they belong to (Dormant, Interested, Engaged, or Active Donor)  
+- 💡 **Recommends solicitation strategies** personalized to each individual — including optimal outreach channel, timing, and messaging style  
+- 🔁 **Continuously learns and improves**, updating predictions based on new interactions and real results  
+- 🛠️ Built with **Streamlit**, **scikit-learn**, and **Tessitura-integrated pipelines** by **Joshua Kao**. Documentation and User Manual still in progress. 
 """)
+
+# Button to move to Aria page
+if st.button("🚀 Start using Aria"):
+    st.switch_page("pages/1_AriaStart.py")
 
 # Footer
 st.markdown("---")
