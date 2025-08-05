@@ -26,8 +26,11 @@ Aria:
 """)
 
 # Button to move to Aria page
-if st.button("🚀 Start using Aria"):
-    st.switch_page("pages/1_AriaStart.py")
+if st.button("🚀 Get started: View Donor Insights!"):
+    st.switch_page("pages/1_View_Donor_Insights!.py")
+if st.button("Train Model (Admin Only) "):
+    st.switch_page("pages/2_Train_Model.py")
+
 
 # Footer
 st.markdown("---")
